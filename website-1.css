@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --maincolor: white;
+}
+.container{
+   width: 100%;
+   height: 100vh;
+   background-image: url(./image/architect.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.navbar{
+    height: 12%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-color: var(--maincolor);
+}
+span{
+    background-color: black;
+    color: var(--maincolor);
+    margin: 30px 25px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar p{
+    font-size: 20px;
+    margin: 3px 0.5px;
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+    list-style: none;
+    padding: 15px 15px;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color:rgb(31, 164, 216);
+    border-radius: 3px;
+}
+.container h1{
+    text-align: center;
+    margin-top: 230px;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#one h2{
+    margin:60px  73px;
+    font-size: 30px;
+}
+.two{
+    display:inline-block;
+    margin-left: 73px;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+.two img{
+    width:200px;
+    height: 200px;
+}
+.two h5{
+    font-size: 20px;
+}
+#about h2{
+    margin:60px  73px;
+    font-size: 30px;
+}
+.paragraph p{
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 73px;
+    text-align: left;
+    letter-spacing: 0.8px;
+}
+.three{
+    display:inline-block;
+    margin-left: 73px;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+.three img{
+    width:200px;
+    height: 200px;
+    margin-top: 20px;
+}
+.three h5{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.para{
+    margin-top: 20px;
+    font-size: 20px;
+    color: gray;
+}
+.three p{
+    width:200px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.three button{
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: rgb(198, 193, 193);
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.three button:hover{
+    background-color: gray;
+}
+#contact{
+    margin:60px  73px;
+    font-size: 30px;
+}
+.form p{
+    font-size: 20px;
+    margin: 40px;
+}
+.form{
+    margin:20px 73px;
+    font-size: 20px;
+}
+.field input{
+       width: 100%;
+       height: 35px;
+       margin-top: 10px;
+       font-size: 15px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.img img{
+    width: 1120px;
+    height: 100vh;
+    margin-top: 30px;
+    margin-left: 73px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.footer p{
+       margin-left: 550px;
+       padding-top: 20px;
+       font-size: 20px;
+}
